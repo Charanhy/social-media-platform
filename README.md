@@ -57,13 +57,13 @@ Open MySQL command line or MySQL Workbench and run:
 
 ```sql
 -- Create the user
-CREATE USER 'user'@'localhost' IDENTIFIED BY '#1#2#3%1%2%3';
+CREATE USER 'XXXX'@'XXXX' IDENTIFIED BY 'XXXXX';
 
 -- Create the database
 CREATE DATABASE socialmedia;
 
 -- Grant permissions
-GRANT ALL PRIVILEGES ON socialmedia.* TO 'user'@'localhost';
+GRANT ALL PRIVILEGES ON socialmedia.* TO 'XXXX'@'XXXXXX';
 FLUSH PRIVILEGES;
 
 -- Use the database
@@ -119,7 +119,7 @@ Or manually execute the script in your MySQL client.
 
 1. **Navigate to the project directory:**
    ```bash
-   cd C:\Users\chara\Documents\SocialMediaPlatform
+   cd C:file name\SocialMediaPlatform
    ```
 
 2. **Compile the project:**
@@ -169,8 +169,8 @@ SocialMediaPlatform/
    - Create a new account or login with existing credentials
 
 2. **Try the Demo Account:**
-   - **Email:** `charan`
-   - **Password:** `pass@123`
+   - **Email:** `XXXX`
+   - **Password:** `XXXXXX`
    - Explore a fully populated account with posts, friends, and interactions!
 
 3. **Sample Accounts (all use password: `password123`):**
@@ -208,15 +208,15 @@ If you see connection errors:
    ```
 
 2. **Verify credentials in Database.java:**
-   - User: `user`
-   - Password: `#1#2#3%1%2%3`
+   - User: `XXXX`
+   - Password: `XXXXXXX`
    - Database: `socialmedia`
    - Port: `3306`
 
 3. **Test connection:**
    ```bash
    mysql -u user -p
-   # Enter password: #1#2#3%1%2%3
+   # Enter password: XXXXXXX
    ```
 
 ### Compilation Errors
@@ -235,8 +235,8 @@ If you see connection errors:
 To modify database settings, edit `src/Model/Database.java`:
 
 ```java
-private String user = "user";          // MySQL username
-private String pass = "#1#2#3%1%2%3";  // MySQL password
+private String user = "XXXX";          // MySQL username
+private String pass = "XXXXX";  // MySQL password
 private String url = "jdbc:mysql://localhost:3306/socialmedia?useSSL=false&serverTimezone=UTC";
 ```
 
