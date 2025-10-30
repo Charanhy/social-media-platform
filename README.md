@@ -2,13 +2,13 @@
 
 A modern, colorful Java-based social media application built with Swing GUI and MySQL database. This application allows users to create accounts, post content, comment, like posts, and manage friends.
 
-> **✨ Now with enhanced UI featuring vibrant colors and smooth interactions!**
+> **✨ With enhanced UI featuring vibrant colors and smooth interactions!**
 
 ## 🎮 Quick Demo
 
 **Login credentials to see the platform in action:**
-- **Username:** `charan`
-- **Password:** `pass@123`
+- **Username:** `XXXX`
+- **Password:** `XXXXX`
 
 This account comes pre-populated with:
 - ✅ 6 engaging posts
